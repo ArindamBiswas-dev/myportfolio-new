@@ -32,9 +32,8 @@ function Footer() {
                 my="1"
                 mb="3"
               >
-                I build engaging, fast and high quality websites your users will
-                love. I specialize in JavaScript. I'm a web developer near
-                Eindhoven, The Netherlands.
+                I love to build Web Applications. Learning new things and play
+                with them become my habit.
               </Heading>
               <Flex>
                 <Box mr="4">
