@@ -14,7 +14,7 @@ function Footer() {
     >
       <Flex bg="#1E0861" justify="center" py="10">
         <div className={style.divContainer}>
-          <Flex justify="space-between" wrap="wrap">
+          <Flex justify="space-between" wrap="wrap" w="100%">
             <Stack w={{ base: '100%', sm: '40%' }}>
               <Heading
                 size="xl"

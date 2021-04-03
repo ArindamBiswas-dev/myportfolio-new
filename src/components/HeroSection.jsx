@@ -14,14 +14,14 @@ function HeroSection() {
         pb="6"
       >
         <div className={style.divContainer}>
-          <Flex minH="80%" wrap="wrap">
+          <Flex minH="80%" wrap="wrap" justify="space-between" w="100%">
             <Box
               d="flex"
               flexDirection="column"
               color="whitesmoke"
               justifyContent="space-evenly"
               order={{ base: '1', md: '0' }}
-              width={{ base: '100%', sm: '100%', md: '40%' }}
+              width={{ base: '100%', sm: '100%', md: '50%' }}
             >
               <Heading size="xl" className={style.headingFont} my="1">
                 Hi, I'm Arindam Biswas
@@ -63,7 +63,7 @@ function HeroSection() {
               </Flex>
             </Box>
             <Box
-              width={{ base: '100%', md: '50%' }}
+              width={{ base: '100%', md: '40%' }}
               className={style.picContianerDiv}
             >
               <div className={style.myPictureParent}>
