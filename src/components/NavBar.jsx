@@ -8,6 +8,7 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { ImCross } from 'react-icons/im';
 import React from 'react';
 import style from '../styles/homePage.module.css';
 import CustomDrawer from '../components/CustomDrawer';
@@ -52,7 +53,13 @@ function NavBar() {
               <IconButton
                 aria-label="Search database"
                 size="md"
-                icon={<GiHamburgerMenu fontSize="25px" />}
+                icon={
+                  isOpen ? (
+                    <ImCross fontSize="18px" />
+                  ) : (
+                    <GiHamburgerMenu fontSize="25px" />
+                  )
+                }
                 mr="2"
                 onClick={onOpen}
               />
