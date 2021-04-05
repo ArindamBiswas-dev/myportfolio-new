@@ -44,6 +44,8 @@ function ProjectCard({ title, imageUrl, githubLink, des, liveUrl }) {
             display="flex"
             alignItems="center"
             target="_blank"
+            rel="noreferrer"
+            aria-label={`${title}-github`}
           >
             <Text mr="5px" className={style.normalFont} fontWeight="semibold">
               Github
@@ -56,6 +58,8 @@ function ProjectCard({ title, imageUrl, githubLink, des, liveUrl }) {
             isExternal
             display="flex"
             alignItems="center"
+            rel="noreferrer"
+            aria-label={`${title}-liveurl`}
           >
             <Text mr="5px" className={style.normalFont} fontWeight="semibold">
               Live url

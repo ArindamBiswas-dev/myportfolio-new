@@ -40,6 +40,8 @@ function Footer() {
                   <Link
                     href="https://github.com/ArindamBiswas-dev"
                     target="_blank"
+                    rel="noreferrer"
+                    aria-label="linkdin-link"
                   >
                     <FaGithub size="25px" color="white" />
                   </Link>
@@ -48,6 +50,8 @@ function Footer() {
                   <Link
                     href="https://www.linkedin.com/in/arindam-biswas-164b171b6"
                     target="_blank"
+                    rel="noreferrer"
+                    aria-label="github-link"
                   >
                     <FaLinkedin size="25px" color="white" />
                   </Link>
