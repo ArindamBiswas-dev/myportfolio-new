@@ -5,14 +5,7 @@ const programmingLanguages = ['JavaScript', 'Java', 'c', 'CSS', 'HTML'];
 const data = ['SQL', 'MongoDB', 'FireBase'];
 
 // Frameworks & Libraries
-const fnl = [
-  'React JS',
-  'Node Js',
-  'Express Js',
-  'Chakra UI',
-  'Meterial UI',
-  'Bootstrap',
-];
+const fnl = ['React JS', 'Node Js', 'Express Js', 'Chakra UI', 'Bootstrap'];
 
 // Other Skills & Tools
 const snt = ['Git', 'GitHub', 'Linux'];

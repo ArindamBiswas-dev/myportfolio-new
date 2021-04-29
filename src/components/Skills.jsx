@@ -80,10 +80,7 @@ function Skills() {
             <CircleIconDiv icon={<SiMongodb />} />
             <CircleIconDiv icon={<FaGitAlt />} />
             <CircleIconDiv icon={<SiMysql />} />
-            <CircleIconDiv icon={<SiFirebase />} />
             <CircleIconDiv icon={<FaJava />} />
-            <CircleIconDiv icon={<FaLinux />} />
-            <CircleIconDiv icon={<SiTypescript />} />
           </Box>
         </Flex>
       </div>

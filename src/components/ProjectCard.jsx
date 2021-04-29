@@ -16,8 +16,8 @@ function ProjectCard({ title, imageUrl, githubLink, des, liveUrl }) {
       <Image
         src={imageUrl}
         alt="project image"
-        h="200px"
-        w="100%"
+        height="200px"
+        width="100%"
         objectFit="cover"
         borderRadius="10px 10px 40px 0px"
       />

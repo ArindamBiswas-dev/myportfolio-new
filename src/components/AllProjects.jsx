@@ -1,8 +1,9 @@
 import { Box, Flex, Heading } from '@chakra-ui/react';
-import React from 'react';
 import { projects } from '../localData';
+import React from 'react';
 import style from '../styles/homePage.module.css';
 import ProjectCard from './ProjectCard';
+import ProjectCard2 from './ProjectCard2';
 
 function AllProjects() {
   return (
@@ -29,12 +30,12 @@ function AllProjects() {
         </Box>
         <Flex
           justifyContent={{ base: 'center', sm: 'space-between' }}
+          w="100%"
           flexWrap="wrap"
           alignItems="center"
           alignContent="center"
-          w="100%"
         >
-          {projects.map((project, index) => {
+          {/* {projects.map((project, index) => {
             return (
               <ProjectCard
                 title={project.title}
@@ -45,7 +46,8 @@ function AllProjects() {
                 key={index}
               />
             );
-          })}
+          })} */}
+          <ProjectCard2 />
         </Flex>
       </div>
     </Box>
