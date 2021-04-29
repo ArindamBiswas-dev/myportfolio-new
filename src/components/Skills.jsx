@@ -57,13 +57,15 @@ function Skills() {
             p="3"
             mt="6"
             ml="6"
-            flexDirection="column"
-            h="500px"
-            justifyContent="space-between"
+            flexDirection="row"
+            minH="500px"
+            maxW="200px"
+            justifyContent="space-evenly"
             alignItems="center"
-            w="25%"
+            // w="25%"
             flexWrap="wrap"
             display={{ base: 'none', sm: 'flex' }}
+            style={{ gap: '5px' }}
           >
             <CircleIconDiv icon={<FaReact />} />
             <CircleIconDiv icon={<SiJavascript />} />
