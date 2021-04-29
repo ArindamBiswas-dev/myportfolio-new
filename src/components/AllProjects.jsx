@@ -2,7 +2,6 @@ import { Box, Flex, Heading } from '@chakra-ui/react';
 import { projects } from '../localData';
 import React from 'react';
 import style from '../styles/homePage.module.css';
-import ProjectCard from './ProjectCard';
 import ProjectCard2 from './ProjectCard2';
 
 function AllProjects() {

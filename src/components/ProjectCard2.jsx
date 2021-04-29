@@ -1,5 +1,4 @@
 import { Box, Flex, Heading, Text } from '@chakra-ui/layout';
-import { BiCaretRight } from 'react-icons/bi';
 import style from '../styles/homePage.module.css';
 import React from 'react';
 

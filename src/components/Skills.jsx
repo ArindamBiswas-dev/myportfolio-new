@@ -9,15 +9,8 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaJava,
-  FaLinux,
 } from 'react-icons/fa';
-import {
-  SiJavascript,
-  SiMongodb,
-  SiMysql,
-  SiFirebase,
-  SiTypescript,
-} from 'react-icons/si';
+import { SiJavascript, SiMongodb, SiMysql } from 'react-icons/si';
 
 function Skills() {
   return (
